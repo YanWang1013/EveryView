@@ -1,0 +1,24 @@
+#map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#slider {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#shelf-table th, #shelf-table td{
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    #slider {
+        width: 73px;
+    }
+    #shelf-table td img{
+        height: 28px!important;
+    }
+}
